@@ -1,0 +1,363 @@
+{
+  "small separator": {
+    "prefix": "com-sep-sm",
+    "body": ["<!==========${1:Comment}==========>"],
+    "description": "small comment separator"
+  },
+  "medium separator": {
+    "prefix": "com-sep-md",
+    "body": ["<!===============${1:Comment}==============>"],
+    "description": "medium comment separator"
+  },
+  "large separator": {
+    "prefix": "com-sep-lg",
+    "body": ["<!====================${1:Comment}====================>"],
+    "description": "large comment separator"
+  },
+  "Xlarge separator": {
+    "prefix": "com-sep-xl",
+    "body": ["<!=========================${1:Comment}=========================>"],
+    "description": "extra large comment separator"
+  },
+  "XXlarge separator": {
+    "prefix": "com-sep-xxl",
+    "body": ["<!==============================${1:Comment}==============================>"],
+    "description": "double extra large comment separator"
+  },
+
+  "small block": {
+    "prefix": "com-blk-sm",
+    "body": [
+      "<!-------------------------------->",
+      "<!          ${1:Comment}          >",
+      "<!-- ${2:body} ",
+      "-->",
+      "<!-------------------------------->"
+    ],
+    "description": "small comment block"
+  },
+  "medium block": {
+    "prefix": "com-blk-md",
+    "body": [
+      "<!------------------------------------------>",
+      "<!               ${1:Comment}               >",
+      "<!-- ${2:body} ",
+      "-->",
+      "<!------------------------------------------>"
+    ],
+    "description": "medium comment block"
+  },
+  "large block": {
+    "prefix": "com-blk-lg",
+    "body": [
+      "<!---------------------------------------------------->",
+      "<!                    ${1:Comment}                    >",
+      "<!-- ${2:body} ",
+      "-->",
+      "<!---------------------------------------------------->"
+    ],
+    "description": "large comment block"
+  },
+  "Xlarge block": {
+    "prefix": "com-blk-xl",
+    "body": [
+      "<!-------------------------------------------------------------->",
+      "<!                         ${1:Comment}                         >",
+      "<!-- ${2:body} ",
+      "-->",
+      "<!-------------------------------------------------------------->"
+    ],
+    "description": "extra large comment block"
+  },
+  "XXlarge block": {
+    "prefix": "com-blk-xxl",
+    "body": [
+      "<!------------------------------------------------------------------------>",
+      "<!                              ${1:Comment}                              >",
+      "<!-- ${2:body} ",
+      "-->",
+      "<!------------------------------------------------------------------------>"
+    ],
+    "description": "double extra large comment block"
+  },
+  
+  "small TODO block": {
+    "prefix": "com-todo-sm",
+    "body": [
+      "<!-------------------------------->",
+      "<!TODO      ${1:Comment}          >",
+      "<!--? ${2:body} ",
+      "-->",
+      "<!-------------------------------->"
+    ],
+    "description": "small TODO block"
+  },
+  "medium TODO block": {
+    "prefix": "com-todo-md",
+    "body": [
+      "<!------------------------------------------>",
+      "<!TODO           ${1:Comment}               >",
+      "<!--? ${2:body} ",
+      "-->",
+      "<!------------------------------------------>"
+    ],
+    "description": "medium TODO block"
+  },
+  "large TODO block": {
+    "prefix": "com-todo-lg",
+    "body": [
+      "<!---------------------------------------------------->",
+      "<!TODO                ${1:Comment}                    >",
+      "<!--? ${2:body} ",
+      "-->",
+      "<!---------------------------------------------------->"
+    ],
+    "description": "large TODO block"
+  },
+  "Xlarge TODO block": {
+    "prefix": "com-todo-xl",
+    "body": [
+      "<!-------------------------------------------------------------->",
+      "<!TODO                     ${1:Comment}                         >",
+      "<!--? ${2:body} ",
+      "-->",
+      "<!-------------------------------------------------------------->"
+    ],
+    "description": "extra large TODO block"
+  },
+  "XXlarge TODO block": {
+    "prefix": "com-todo-xxl",
+    "body": [
+      "<!------------------------------------------------------------------------>",
+      "<!TODO                          ${1:Comment}                              >",
+      "<!--? ${2:body} ",
+      "-->",
+      "<!------------------------------------------------------------------------>"
+    ],
+    "description": "double extra large todo block"
+  },
+  
+  "small INFO block": {
+    "prefix": "com-info-sm",
+    "body": [
+      "<!-------------------------------->",
+      "<!INFO      ${1:Comment}          >",
+      "<!-- * ${2:body} ",
+      "-->",
+      "<!-------------------------------->"
+    ],
+    "description": "small INFO block"
+  },
+  "medium INFO block": {
+    "prefix": "com-info-md",
+    "body": [
+      "<!------------------------------------------>",
+      "<!INFO           ${1:Comment}               >",
+      "<!-- * ${2:body} ",
+      "-->",
+      "<!------------------------------------------>"
+    ],
+    "description": "medium INFO block"
+  },
+  "large INFO block": {
+    "prefix": "com-info-lg",
+    "body": [
+      "<!---------------------------------------------------->",
+      "<!INFO                ${1:Comment}                    >",
+      "<!-- * ${2:body} ",
+      "-->",
+      "<!---------------------------------------------------->"
+    ],
+    "description": "large INFO block"
+  },
+  "Xlarge INFO block": {
+    "prefix": "com-info-xl",
+    "body": [
+      "<!-------------------------------------------------------------->",
+      "<!INFO                     ${1:Comment}                         >",
+      "<!-- * ${2:body} ",
+      "-->",
+      "<!-------------------------------------------------------------->"
+    ],
+    "description": "extra large INFO block"
+  },
+  "XXlarge INFO block": {
+    "prefix": "com-info-xxl",
+    "body": [
+      "<!------------------------------------------------------------------------>",
+      "<!INFO                          ${1:Comment}                              >",
+      "<!-- * ${2:body} ",
+      "-->",
+      "<!------------------------------------------------------------------------>"
+    ],
+    "description": "double extra large INFO block"
+  },
+
+  "small WARN block": {
+    "prefix": "com-warn-sm",
+    "body": [
+      "<!-------------------------------->",
+      "<!WARN      ${1:Comment}          >",
+      "<!-- # ${2:body} ",
+      "-->",
+      "<!-------------------------------->"
+    ],
+    "description": "small WARN block"
+  },
+  "medium WARN block": {
+    "prefix": "com-warn-md",
+    "body": [
+      "<!------------------------------------------>",
+      "<!WARN           ${1:Comment}               >",
+      "<!-- # ${2:body} ",
+      "-->",
+      "<!------------------------------------------>"
+    ],
+    "description": "medium WARN block"
+  },
+  "large WARN block": {
+    "prefix": "com-warn-lg",
+    "body": [
+      "<!---------------------------------------------------->",
+      "<!WARN                ${1:Comment}                    >",
+      "<!-- # ${2:body} ",
+      "-->",
+      "<!---------------------------------------------------->"
+    ],
+    "description": "large WARN block"
+  },
+  "Xlarge WARN block": {
+    "prefix": "com-warn-xl",
+    "body": [
+      "<!-------------------------------------------------------------->",
+      "<!WARN                     ${1:Comment}                         >",
+      "<!-- # ${2:body} ",
+      "-->",
+      "<!-------------------------------------------------------------->"
+    ],
+    "description": "extra large WARN block"
+  },
+  "XXlarge WARN block": {
+    "prefix": "com-warn-xxl",
+    "body": [
+      "<!------------------------------------------------------------------------>",
+      "<!WARN                          ${1:Comment}                              >",
+      "<!-- # ${2:body} ",
+      "-->",
+      "<!------------------------------------------------------------------------>"
+    ],
+    "description": "double extra large WARN block"
+  },
+
+  "small BUG block": {
+    "prefix": "com-bug-sm",
+    "body": [
+      "<!-------------------------------->",
+      "<!BUG     ${1:Comment}          >",
+      "<!-- ! ${2:body} ",
+      "-->",
+      "<!-------------------------------->"
+    ],
+    "description": "small BUG block"
+  },
+  "medium BUG block": {
+    "prefix": "com-bug-md",
+    "body": [
+      "<!------------------------------------------>",
+      "<!BUG          ${1:Comment}               >",
+      "<!-- ! ${2:body} ",
+      "-->",
+      "<!------------------------------------------>"
+    ],
+    "description": "medium BUG block"
+  },
+  "large BUG block": {
+    "prefix": "com-bug-lg",
+    "body": [
+      "<!---------------------------------------------------->",
+      "<!BUG               ${1:Comment}                      >",
+      "<!-- ! ${2:body} ",
+      "-->",
+      "<!---------------------------------------------------->"
+    ],
+    "description": "large BUG block"
+  },
+  "Xlarge BUG block": {
+    "prefix": "com-bug-xl",
+    "body": [
+      "<!-------------------------------------------------------------->",
+      "<!BUG                    ${1:Comment}                           >",
+      "<!-- ! ${2:body} ",
+      "-->",
+      "<!-------------------------------------------------------------->"
+    ],
+    "description": "extra large BUG block"
+  },
+  "XXlarge BUG block": {
+    "prefix": "com-bug-xxl",
+    "body": [
+      "<!------------------------------------------------------------------------>",
+      "<!BUG                         ${1:Comment}                                >",
+      "<!-- ! ${2:body} ",
+      "-->",
+      "<!------------------------------------------------------------------------>"
+    ],
+    "description": "double extra large BUG block"
+  },
+
+  "small FIXME block": {
+    "prefix": "com-fix-sm",
+    "body": [
+      "<!-------------------------------->",
+      "<!FIXME     ${1:Comment}          >",
+      "<!-- ! ${2:body} ",
+      "-->",
+      "<!-------------------------------->"
+    ],
+    "description": "small FIXME block"
+  },
+  "medium FIXME block": {
+    "prefix": "com-fix-md",
+    "body": [
+      "<!------------------------------------------>",
+      "<!FIXME          ${1:Comment}               >",
+      "<!-- ! ${2:body} ",
+      "-->",
+      "<!------------------------------------------>"
+    ],
+    "description": "medium FIXME block"
+  },
+  "large FIXME block": {
+    "prefix": "com-fix-lg",
+    "body": [
+      "<!---------------------------------------------------->",
+      "<!FIXME               ${1:Comment}                    >",
+      "<!-- ! ${2:body} ",
+      "-->",
+      "<!---------------------------------------------------->"
+    ],
+    "description": "large FIXME block"
+  },
+  "Xlarge FIXME block": {
+    "prefix": "com-fix-xl",
+    "body": [
+      "<!-------------------------------------------------------------->",
+      "<!FIXME                    ${1:Comment}                         >",
+      "<!-- ! ${2:body} ",
+      "-->",
+      "<!-------------------------------------------------------------->"
+    ],
+    "description": "extra large FIXME block"
+  },
+  "XXlarge FIXME block": {
+    "prefix": "com-fix-xxl",
+    "body": [
+      "<!------------------------------------------------------------------------>",
+      "<!FIXME                         ${1:Comment}                              >",
+      "<!-- ! ${2:body} ",
+      "-->",
+      "<!------------------------------------------------------------------------>"
+    ],
+    "description": "double extra large FIXME block"
+  }
+}
