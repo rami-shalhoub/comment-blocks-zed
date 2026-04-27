@@ -14,7 +14,7 @@ snippets = [
    "./snippets/hashtag_style/python.json",
    "./snippets/hashtag_style/r.json",
    "./snippets/hashtag_style/ruby.json",
-   "./snippets/hashtag_style/shellscript.json",
+   "./snippets/hashtag_style/shell script.json",
    "./snippets/hashtag_style/yaml.json",
    "./snippets/slash_style/c.json",
    "./snippets/slash_style/c++.json",
