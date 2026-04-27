@@ -6,7 +6,7 @@
   },
   "medium separator": {
     "prefix": "com-sep-md",
-    "body": ["/*===============${1:Comment}/==============*/"],
+    "body": ["/*===============${1:Comment}==============*/"],
     "description": "medium comment separator"
   },
   "large separator": {
