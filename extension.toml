@@ -1,6 +1,6 @@
 id = "comment-block-snippets"
 name = "Comment Blocks "
-version = "1.0.1"
+version = "1.0.2"
 schema_version = 1
 authors = ["Rami Shalhoub <rami2002.work@gmail.com>"]
 description = "sippets to add comment blocks"
@@ -9,7 +9,6 @@ snippets = [
    "./snippets/dash_style/haskell.json",
    "./snippets/dash_style/lua.json",
    "./snippets/dash_style/sql.json",
-   "./snippets/hashtag_style/makefile.json",
    "./snippets/hashtag_style/perl.json",
    "./snippets/hashtag_style/python.json",
    "./snippets/hashtag_style/r.json",
@@ -33,6 +32,3 @@ snippets = [
    "./snippets/html.json",
    "./snippets/prolog.json"
 ]
-[comment-block-snippets]
-submodule = "extensions/comment-block-snippets"
-version = "1.0.0"
