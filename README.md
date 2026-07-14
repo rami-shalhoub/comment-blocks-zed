@@ -96,6 +96,7 @@ There are 8 different templates, each with 5 sizes:
 | Swift | | | |
 | Rust | | | |
 | PHP | | | |
+| JSONC | | | |
 
 ## How to Use
 

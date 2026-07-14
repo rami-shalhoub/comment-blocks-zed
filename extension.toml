@@ -22,6 +22,7 @@ snippets = [
    "./snippets/slash_style/go.json",
    "./snippets/slash_style/java.json",
    "./snippets/slash_style/javascript.json",
+   "./snippets/slash_style/jsonc.json",
    "./snippets/slash_style/kotlin.json",
    "./snippets/slash_style/php.json",
    "./snippets/slash_style/rust.json",
