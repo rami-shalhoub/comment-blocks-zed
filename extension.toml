@@ -1,6 +1,6 @@
 id = "comment-block-snippets"
 name = "Comment Blocks "
-version = "1.0.2"
+version = "1.0.3"
 schema_version = 1
 authors = ["Rami Shalhoub <rami2002.work@gmail.com>"]
 description = "sippets to add comment blocks"
